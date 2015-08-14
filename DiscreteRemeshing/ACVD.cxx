@@ -51,7 +51,7 @@ Author:   Sebastien Valette
 // gradation is the gradation parameter (0 is uniform, higher values give more and more importance 
 //									to regions with high curvature)
 //
-// Additionnal options : 
+// Additional options : 
 // -d x : sets the graphics display (0 : no display. 1: display. 2 :iterative display)
 //			default value : 1
 //
@@ -106,8 +106,8 @@ int main( int argc, char *argv[] )
 		cout<<"-o directory : sets the output directory ";
 		cout<<"-of file : sets the output file name ";
 		cout<<" of vertices is above nvertices*threshold (default=10)"<<endl;
-		cout<<"-d 0/1/2 : enables display (default : 0)"<<endl;
-		cout<<"-q 0/1/2 : set the number of eigenvalues for quadrics post-processing (default : 3)"<<endl;
+		cout<<"-d 0/1/2 : enables display (default : 1)"<<endl;
+		cout<<"-q 0/1/2 : set the number of eigenvalues for quadrics post-processing (default : 1)"<<endl;
 		cout<<"-cd file : set custom imagedata file containing density information"<<endl;
 		cout<<"-cmin value : set minimum custom indicator value"<<endl;
 		cout<<"-cmax value : set maximum custom indicator value"<<endl;
