@@ -50,7 +50,7 @@ Auteur:   Sebastien Valette,
 // gradation is the gradation parameter (0 is uniform, higher values give more and more importance 
 //									to regions with high curvature)
 //
-// Additionnal options : 
+// Additional options : 
 // -d x : sets the graphics display (0 : no display. 1: display. 2 :iterative display)
 //			default value : 1
 //
@@ -102,7 +102,7 @@ int main( int argc, char *argv[] )
 		cout<<endl<<"Optionnal arguments : "<<endl;
 		cout<<"-s threshold : defines the subsampling threshold i.e. the input mesh will be subdivided until its number ";
 		cout<<" of vertices is above nvertices*threshold (default=10)"<<endl;
-		cout<<"-d 0/1/2 : enables display (default : 0)"<<endl;
+		cout<<"-d 0/1/2 : enables display (default : 1)"<<endl;
 		cout<<"-cd file : set custom imagedata file containing density information"<<endl;
 		cout<<"-cmin value : set minimum custom indicator value"<<endl;
 		cout<<"-cmax value : set maximum custom indicator value"<<endl;
